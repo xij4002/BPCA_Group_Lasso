@@ -1,0 +1,212 @@
+
+===== Two-Step Run started: 2025-08-19 15:37:47 =====
+
+--- STEP 1: Running Exploratory MCMC (1 chain, no constraint) ---
+Running chain 1 of 1 ...
+Exploratory run completed.
+--- Generating 'BEFORE' posterior correlation heatmap ---
+null device 
+          1 
+--- Constraint Value Diagnostics ---
+Posterior Mean: -0.3133, Median: -0.3331, Std Dev: 0.1064
+Low relative uncertainty. Using POSTERIOR MEAN as constraint.
+Final constraint value chosen: -0.3133
+------------------------------------
+
+True W[1,1] from simulation is: -0.9153
+
+--- STEP 2: Running Final MCMC with constraint W[1,1] = -0.3133 ---
+Running chain 1 of 3 ...
+Running chain 2 of 3 ...
+Running chain 3 of 3 ...
+=== CONVERGENCE ASSESSMENT ===
+
+1. MODEL-WIDE PARAMETERS:
+   Noise Variance (sigma2)        R-hat: 2.0000
+   Global Shrinkage (lambda2)     R-hat: 2.0000
+
+2. GROUP-SPECIFIC SCALES (tau_g):
+   Group Scale (tau_1)            R-hat: 2.0000
+   Group Scale (tau_2)            R-hat: 2.0000
+   Group Scale (tau_3)            R-hat: 2.0000
+   Group Scale (tau_4)            R-hat: 2.0000
+   Group Scale (tau_5)            R-hat: 2.0000
+
+3. FACTOR LOADINGS (W):
+   Loading W[1,1]                 R-hat: 1.0000
+   Loading W[15,1]                R-hat: 5.8451
+   Loading W[30,1]                R-hat: 1.2170
+   Loading W[8,3]                 R-hat: 1.7288
+   Loading W[30,3]                R-hat: 1.1213
+
+4. LATENT FACTORS (Z):
+   Factor Z[1,1]                  R-hat: 5.9428
+   Factor Z[100,1]                R-hat: 1.5724
+   Factor Z[200,1]                R-hat: 4.4046
+   Factor Z[50,3]                 R-hat: 1.9617
+   Factor Z[200,3]                R-hat: 1.6319
+
+=== CONVERGENCE SUMMARY ===
+   Total parameters tested: 17
+   Max R-hat: 5.9428
+   Convergence (< 1.1): 5.9%
+
+RECOMMENDATION: POOR. Convergence issues detected. Increase iterations or check model.
+Final constrained model MCMC run completed.
+--- Generating 'AFTER' posterior correlation heatmap ---
+null device 
+          1 
+--- Generating full diagnostic report for final model ---
+=== CONVERGENCE ASSESSMENT ===
+
+1. MODEL-WIDE PARAMETERS:
+   Noise Variance (sigma2)        R-hat: 2.0000
+   Global Shrinkage (lambda2)     R-hat: 2.0000
+
+2. GROUP-SPECIFIC SCALES (tau_g):
+   Group Scale (tau_1)            R-hat: 2.0000
+   Group Scale (tau_2)            R-hat: 2.0000
+   Group Scale (tau_3)            R-hat: 2.0000
+   Group Scale (tau_4)            R-hat: 2.0000
+   Group Scale (tau_5)            R-hat: 2.0000
+
+3. FACTOR LOADINGS (W):
+   Loading W[1,1]                 R-hat: 1.0000
+   Loading W[15,1]                R-hat: 5.8451
+   Loading W[30,1]                R-hat: 1.2170
+   Loading W[8,3]                 R-hat: 1.7288
+   Loading W[30,3]                R-hat: 1.1213
+
+4. LATENT FACTORS (Z):
+   Factor Z[1,1]                  R-hat: 5.9428
+   Factor Z[100,1]                R-hat: 1.5724
+   Factor Z[200,1]                R-hat: 4.4046
+   Factor Z[50,3]                 R-hat: 1.9617
+   Factor Z[200,3]                R-hat: 1.6319
+
+=== CONVERGENCE SUMMARY ===
+   Total parameters tested: 17
+   Max R-hat: 5.9428
+   Convergence (< 1.1): 5.9%
+
+RECOMMENDATION: POOR. Convergence issues detected. Increase iterations or check model.
+=== CREATING W MATRIX HEATMAP COMPARISON ===
+
+1. Normalization Tests:
+   Frobenius norm (true): 3.3017 
+   Frobenius norm (estimated): 2.0460 
+   Norm ratio (est/true): 0.6197 
+   Column norms (true): 1.9123, 1.8878, 1.9186 
+   Column norms (estimated): 1.5482, 0.7449, 1.1109 
+   Interpretation (norm ratio): poor recovery (scale mismatch) 
+
+2. Creating Heatmaps...
+  Saved W comparison plots to: p30k3_fix_w11_robust 
+Full diagnostic report generated.
+All processes completed successfully.
+
+===== Two-Step Run started: 2025-08-20 12:23:26 =====
+
+--- STEP 1: Running Exploratory MCMC (1 chain, no constraint) ---
+Running chain 1 of 1 ...
+Exploratory run completed.
+--- Generating 'BEFORE' posterior correlation heatmap ---
+null device 
+          1 
+--- Constraint Value Diagnostics ---
+Posterior Mean: -0.7403, Median: -0.7352, Std Dev: 0.0912
+Low relative uncertainty. Using POSTERIOR MEAN as constraint.
+Final constraint value chosen: -0.7403
+------------------------------------
+
+True W[1,1] from simulation is: -0.9153
+
+--- STEP 2: Running Final MCMC with constraint W[1,1] = -0.7403 ---
+Running chain 1 of 3 ...
+Running chain 2 of 3 ...
+Running chain 3 of 3 ...
+=== CONVERGENCE ASSESSMENT ===
+
+1. MODEL-WIDE PARAMETERS:
+   Noise Variance (sigma2)        R-hat: 2.0000
+   Global Shrinkage (lambda2)     R-hat: 2.0000
+
+2. GROUP-SPECIFIC SCALES (tau_g):
+   Group Scale (tau_1)            R-hat: 2.0000
+   Group Scale (tau_2)            R-hat: 2.0000
+   Group Scale (tau_3)            R-hat: 2.0000
+   Group Scale (tau_4)            R-hat: 2.0000
+   Group Scale (tau_5)            R-hat: 2.0000
+
+3. FACTOR LOADINGS (W):
+   Loading W[1,1]                 R-hat: 1.0000
+   Loading W[15,1]                R-hat: 1.2647
+   Loading W[30,1]                R-hat: 1.0230
+   Loading W[8,3]                 R-hat: 6.7825
+   Loading W[30,3]                R-hat: 1.2794
+
+4. LATENT FACTORS (Z):
+   Factor Z[1,1]                  R-hat: 1.0517
+   Factor Z[100,1]                R-hat: 1.1405
+   Factor Z[200,1]                R-hat: 1.0229
+   Factor Z[50,3]                 R-hat: 4.0833
+   Factor Z[200,3]                R-hat: 1.9945
+
+=== CONVERGENCE SUMMARY ===
+   Total parameters tested: 17
+   Max R-hat: 6.7825
+   Convergence (< 1.1): 23.5%
+
+RECOMMENDATION: POOR. Convergence issues detected. Increase iterations or check model.
+Final constrained model MCMC run completed.
+--- Generating 'AFTER' posterior correlation heatmap ---
+null device 
+          1 
+--- Generating full diagnostic report for final model ---
+=== CONVERGENCE ASSESSMENT ===
+
+1. MODEL-WIDE PARAMETERS:
+   Noise Variance (sigma2)        R-hat: 2.0000
+   Global Shrinkage (lambda2)     R-hat: 2.0000
+
+2. GROUP-SPECIFIC SCALES (tau_g):
+   Group Scale (tau_1)            R-hat: 2.0000
+   Group Scale (tau_2)            R-hat: 2.0000
+   Group Scale (tau_3)            R-hat: 2.0000
+   Group Scale (tau_4)            R-hat: 2.0000
+   Group Scale (tau_5)            R-hat: 2.0000
+
+3. FACTOR LOADINGS (W):
+   Loading W[1,1]                 R-hat: 1.0000
+   Loading W[15,1]                R-hat: 1.2647
+   Loading W[30,1]                R-hat: 1.0230
+   Loading W[8,3]                 R-hat: 6.7825
+   Loading W[30,3]                R-hat: 1.2794
+
+4. LATENT FACTORS (Z):
+   Factor Z[1,1]                  R-hat: 1.0517
+   Factor Z[100,1]                R-hat: 1.1405
+   Factor Z[200,1]                R-hat: 1.0229
+   Factor Z[50,3]                 R-hat: 4.0833
+   Factor Z[200,3]                R-hat: 1.9945
+
+=== CONVERGENCE SUMMARY ===
+   Total parameters tested: 17
+   Max R-hat: 6.7825
+   Convergence (< 1.1): 23.5%
+
+RECOMMENDATION: POOR. Convergence issues detected. Increase iterations or check model.
+=== CREATING W MATRIX HEATMAP COMPARISON ===
+
+1. Normalization Tests:
+   Frobenius norm (true): 3.3017 
+   Frobenius norm (estimated): 2.0623 
+   Norm ratio (est/true): 0.6246 
+   Column norms (true): 1.9123, 1.8878, 1.9186 
+   Column norms (estimated): 1.6480, 0.6223, 1.0725 
+   Interpretation (norm ratio): poor recovery (scale mismatch) 
+
+2. Creating Heatmaps...
+  Saved W comparison plots to: p30k3_fix_w11_robust 
+Full diagnostic report generated.
+All processes completed successfully.

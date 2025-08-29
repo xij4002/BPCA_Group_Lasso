@@ -1,0 +1,105 @@
+2025-08-12 14:52:13 | max_rhat=1.005, prop_converged=1.000, corr=0.999, rmse=0.0271, norm_ratio=0.942, max_abs_diff=0.085
+2025-08-12 15:12:38 | max_rhat=1.005, prop_converged=1.000, corr=0.999, rmse=0.0271, norm_ratio=0.942, max_abs_diff=0.085
+
+===== Run started: 2025-08-13 11:31:52 =====
+Error in mcmc_bpca_group_lasso(X = X_data_missing, K = 3, G = 50, n_iter = 20000,  : 
+  P must be divisible by G for equal group sizes
+Execution halted
+
+===== Run started: 2025-08-13 12:10:55 =====
+Error in mcmc_bpca_group_lasso(X = X_data_missing, K = 3, G = 50, n_iter = 20000,  : 
+  P must be divisible by G for equal group sizes
+Execution halted
+
+===== Run started: 2025-08-13 12:25:31 =====
+Error in mcmc_bpca_group_lasso(X = X_data_missing, K = 3, G = 50, n_iter = 20000,  : 
+  P must be divisible by G for equal group sizes
+Execution halted
+
+===== Run started: 2025-08-13 12:30:02 =====
+[run] starting MCMC call
+Running chain 1 of 3 ...
+Running chain 2 of 3 ...
+Running chain 3 of 3 ...
+Aligning 3 chains using procrustes method (Stephens 2000)...
+Alignment completed!
+=== CONVERGENCE ASSESSMENT ===
+
+1. MODEL-WIDE PARAMETERS:
+   Noise Variance (sigma2)        R-hat: 1.0001
+   Global Shrinkage (lambda2)     R-hat: 1.0011
+
+2. GROUP-SPECIFIC SCALES (tau_g):
+   Group Scale (tau_1)            R-hat: 1.0005
+   Group Scale (tau_2)            R-hat: 1.0002
+   Group Scale (tau_3)            R-hat: 1.0007
+   Group Scale (tau_4)            R-hat: 1.0003
+   Group Scale (tau_5)            R-hat: 1.0001
+
+3. FACTOR LOADINGS (W):
+   Loading W[1,1]                 R-hat: 1.1333
+   Loading W[15,1]                R-hat: 1.1249
+   Loading W[30,1]                R-hat: 1.0114
+   Loading W[8,3]                 R-hat: 1.3815
+   Loading W[30,3]                R-hat: 1.0398
+
+4. LATENT FACTORS (Z):
+   Factor Z[1,1]                  R-hat: 1.3305
+   Factor Z[100,1]                R-hat: 1.1142
+   Factor Z[200,1]                R-hat: 1.2693
+   Factor Z[50,3]                 R-hat: 1.3665
+   Factor Z[200,3]                R-hat: 1.1133
+
+=== CONVERGENCE SUMMARY ===
+   Total parameters tested: 17
+   Max R-hat: 1.3815
+   Convergence (< 1.1): 52.9%
+
+RECOMMENDATION: POOR. Convergence issues detected. Increase iterations or check model.
+[run] finished MCMC call
+=== CONVERGENCE ASSESSMENT ===
+
+1. MODEL-WIDE PARAMETERS:
+   Noise Variance (sigma2)        R-hat: 1.0001
+   Global Shrinkage (lambda2)     R-hat: 1.0011
+
+2. GROUP-SPECIFIC SCALES (tau_g):
+   Group Scale (tau_1)            R-hat: 1.0005
+   Group Scale (tau_2)            R-hat: 1.0002
+   Group Scale (tau_3)            R-hat: 1.0007
+   Group Scale (tau_4)            R-hat: 1.0003
+   Group Scale (tau_5)            R-hat: 1.0001
+
+3. FACTOR LOADINGS (W):
+   Loading W[1,1]                 R-hat: 1.1333
+   Loading W[15,1]                R-hat: 1.1249
+   Loading W[30,1]                R-hat: 1.0114
+   Loading W[8,3]                 R-hat: 1.3815
+   Loading W[30,3]                R-hat: 1.0398
+
+4. LATENT FACTORS (Z):
+   Factor Z[1,1]                  R-hat: 1.3305
+   Factor Z[100,1]                R-hat: 1.1142
+   Factor Z[200,1]                R-hat: 1.2693
+   Factor Z[50,3]                 R-hat: 1.3665
+   Factor Z[200,3]                R-hat: 1.1133
+
+=== CONVERGENCE SUMMARY ===
+   Total parameters tested: 17
+   Max R-hat: 1.3815
+   Convergence (< 1.1): 52.9%
+
+RECOMMENDATION: POOR. Convergence issues detected. Increase iterations or check model.
+=== CREATING W MATRIX HEATMAP COMPARISON ===
+
+1. Normalization Tests:
+   Frobenius norm (true): 3.3017 
+   Frobenius norm (estimated): 2.2838 
+   Norm ratio (est/true): 0.6917 
+   Column norms (true): 1.9123, 1.8878, 1.9186 
+   Column norms (estimated): 1.2004, 1.1484, 1.5672 
+   Interpretation (norm ratio): poor recovery (scale mismatch) 
+
+2. Creating Heatmaps...
+  Saved W comparison plots to: p30k3 
+2025-08-13 12:50:15 | max_rhat=1.381, prop_converged=0.529, corr=0.960, rmse=0.1351, norm_ratio=0.692, max_abs_diff=0.417

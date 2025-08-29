@@ -1,0 +1,2 @@
+"max_rhat","prop_converged_lt_1_1","w_recovery_correlation","w_recovery_rmse","w_recovery_procrustes_ss","w_norm_ratio","w_norm_ratio_interpretation","w_max_abs_diff","w_col_norms_ratio_mean"
+2,0.5882,0.9985,0.0268,0.0031,1.0523,"excellent recovery (scale matched)",0.0673,1.0523
